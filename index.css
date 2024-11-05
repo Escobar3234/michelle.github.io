@@ -1,35 +1,60 @@
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  header {
-    background-color: #4CAF50;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  .banner {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .banner li {
-    margin: 0 15px;
-  }
-  
-  .banner a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    padding: 8px 16px;
-    transition: background-color 0.3s;
-  }
-  
-  .banner a:hover {
-    background-color: #45a049;
-    border-radius: 4px;
-  }
-  
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.banner {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between; /* Cambiado a space-between para distribuir espacio */
+  align-items: center;
+}
+
+.banner li {
+  margin: 0 15px;
+}
+
+.banner .logo-container {
+  margin-right: 100px; /* Asegura que el logo esté pegado a la izquierda */
+}
+
+.banner a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+
+.banner a:hover {
+  background-color: #45a049;
+  border-radius: 4px;
+}
+
+.logo {
+  width: 100px;  /* Ajusta el tamaño del logo según sea necesario */
+  height: auto;
+  vertical-align: middle;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #45a049;
+}
